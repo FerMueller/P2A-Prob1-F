@@ -1,3 +1,5 @@
+package trab2;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -23,5 +25,10 @@ public interface FormatoAudio {
     public abstract void retornar(int qtdSegundos);
 
     public abstract void liberar();
+    
+    public abstract void reproduzirSimples(String a);
+    
+    public abstract void pararSimples();
+    
 
 }

@@ -1,0 +1,20 @@
+-Adapter são utilizadas as classes
+AdapterAIFF
+AdapterWAV
+AdapterWMA
+AdapterMP3DJ
+AdapterAACPlayer
+
+-Sendo o target
+FormatoAudio
+
+-Sendo os Adaptee
+AdapterAIFF
+AdapterWAV
+AdapterWMA
+AdapterMP3DJ
+AdapterAACPlayer
+
+-O façade é a interface onde são controlados os métodos, que seria o FormatoAudio.
+
+-E o FactoryMethod seria a clase AudioFactory, onde ele pega todos os tipos de áudio e cria uma instancia deles, separando pela a extensão do arquivo.
