@@ -1,4 +1,4 @@
--Adapter são utilizadas as classes
+-Adapter sÃ£o utilizadas as classes
 AdapterAIFF
 AdapterWAV
 AdapterWMA
@@ -8,13 +8,15 @@ AdapterAACPlayer
 -Sendo o target
 FormatoAudio
 
--Sendo os Adaptee
+-Sendo os Adaptee --> Prof. Marcel: ops! repetiu os adapters. Os adaptados sÃ£o as classes entregues pela empresa (.jar)
 AdapterAIFF
 AdapterWAV
 AdapterWMA
 AdapterMP3DJ
 AdapterAACPlayer
 
--O façade é a interface onde são controlados os métodos, que seria o FormatoAudio.
+-O faÃ§ade Ã© a interface onde sÃ£o controlados os mÃ©todos, que seria o FormatoAudio.
+--> Prof. Marcel: a fachada deveria ser uma nova classe que implementaria os mÃ©todos reproduzirSimples e pararSimples. Esta classe nÃ£o deveria realizar a interface FormatoAudio, apenas utilizÃ¡-la internamente.
 
--E o FactoryMethod seria a clase AudioFactory, onde ele pega todos os tipos de áudio e cria uma instancia deles, separando pela a extensão do arquivo.
+-E o FactoryMethod seria a clase AudioFactory, onde ele pega todos os tipos de Ã¡udio e cria uma instancia deles, separando pela a extensÃ£o do arquivo.
+--> Prof. Marcel: quem Ã© Product? Quem Ã© ConcreteProduct?
